@@ -1,0 +1,271 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int answer, score=0;
+    cout<<"   WELCOME TO ONLINE QUIZ"<<endl;
+    cout << "A) What is the capital of Japan?" << endl;
+    cout << "1. Berlin" <<endl<< "2. Paris"<<endl<<"3. Tokyo"<<endl<<"4. Shingai" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >>  answer;
+    if (answer == 3) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+    cout << "B) What is the largest river in the world?" << endl;
+    cout << "1. Nile river"<<endl<<"2. Amazon river"<<endl<<"3. Indus river"<<endl<<"4. Prana river" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 1) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+    
+    cout << "C) Which pair is matched?" << endl;
+    cout << "1. K-2,Nepal"<<endl<<"2. Mount Everest,Nepal"<<endl<<"3. Mount Everest,Pakistan"<<endl<<"4. K-2,Pakistan" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+
+    cout << "D) Giza Pyramids are present in which country?" << endl;
+    cout << "1. Oman \n2. Egypt\n3. Ethopia\n4. Bahrain" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 2) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+cout << "E) How many bones are present in adult human?" << endl;
+    cout << "1. 205 \n2. 260\n3. 207\n4. 206" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+cout << "F) Smallest bone of Human body?" << endl;
+    cout << "1. Stapes \n2. Femur\n3. Tarsals\n4. Metacarpals" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 1) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+cout << "G) Speed of Light in vaccum is?" << endl;
+    cout << "1. 200000000m/s \n2. 350000000m/s\n3. 600000000m/s\n4. 300000000m/s" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+cout << "H) SI unit of Length?" << endl;
+    cout << "1. cm \n2. km\n3. m\n4. mm" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 3) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+cout << "I) Chemical formula of Table Salt?" << endl;
+    cout << "1. NaCl \n2. Ca\n3. Ge\n4. Au" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 1) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+cout << "J) Which gas is abundantly present in atmosphere?" << endl;
+    cout << "1. Carbon Dioxide \n2. Oxygen\n3. Neon\n4. Nitrogen" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Your answer is correct!"<<endl;
+    }
+    else {
+    cout<<"Your answer is incorrect!"<<endl;
+}
+if (score==10)
+cout<<"Absolutely brilliant.Your performance is up to the mark!!!"<<endl;
+else if (score>=7)
+cout<<"Congratulation.Your performance is good!!!"<<endl;
+else if (score>=5)
+cout<<"Your performance is Satisfactory!!!"<<endl;
+else 
+cout<<"Your performance is not Satisfactory!!!"<<endl;
+
+  
+    cout << "Your final score: " << score << " out of 10" << endl;
+
+    return 0;
+}
+
+
+                                Code 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int answer, score=0;
+    cout<<"            WELCOME" <<endl;
+    
+    cout << "A) What is the capital of Japan?" << endl;
+    cout << "1. Berlin" <<endl<< "2. Paris"<<endl<<"3. Tokyo"<<endl<<"4. Shingai" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >>  answer;
+    if (answer == 3) {
+        score++;  
+        
+        cout<<" Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+    cout << "B) What is the largest river in the world?" << endl;
+    cout << "1. Nile river"<<endl<<"2. Amazon river"<<endl<<"3. Indus river"<<endl<<"4. Prana river" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 1) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+    
+    cout << "C) Which pair is matched?" << endl;
+    cout << "1. K-2,Nepal"<<endl<<"2. Mount Everest,Nepal"<<endl<<"3. Mount Everest,Pakistan"<<endl<<"4. K-2,Pakistan" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+
+    cout << "D) Giza Pyramids are present in which country?" << endl;
+    cout << "1. Oman \n2. Egypt\n3. Ethopia\n4. Bahrain" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 2) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+cout << "E) How many bones are present in adult human?" << endl;
+    cout << "1. 205 \n2. 260\n3. 207\n4. 206" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+cout << "F) Smallest bone of Human body?" << endl;
+    cout << "1. Stapes \n2. Femur\n3. Tarsals\n4. Metacarpals" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 1) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+cout << "G) Speed of Light in vaccum is?" << endl;
+    cout << "1. 200000000m/s \n2. 350000000m/s\n3. 600000000m/s\n4. 300000000m/s" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+cout << "H) SI unit of Length?" << endl;
+    cout << "1. cm \n2. km\n3. m\n4. mm" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 3) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+cout << "I) Chemical formula of Table Salt?" << endl;
+    cout << "1. NaCl \n2. Ca\n3. Ge\n4. Au" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 1) {
+        score++;  
+        cout<<"Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+cout << "J) Which gas is abundantly present in atmosphere?" << endl;
+    cout << "1. Carbon Dioxide \n2. Oxygen\n3. Neon\n4. Nitrogen" << endl;
+    cout <<"Select one option (1-4)= ";
+    cin >> answer;
+    if (answer == 4) {
+        score++;  
+        cout<<" Correct!"<<endl;
+    }
+    else {
+    cout<<"Incorrect!"<<endl;
+}
+
+
+  
+    cout << "Final score: " << score << " out of 10" << endl;
+    if (score==10)
+cout<<"REMARKS:Absolutely brilliant.Your performance is up to the mark!!!"<<endl;
+else if (score>=7)
+cout<<"REMARKS:Congratulation.Your performance is good!!!"<<endl;
+else if (score>=5)
+cout<<"REMARKS:Your performance is Satisfactory!!!"<<endl;
+else 
+cout<<"REMARKS:Your performance is not Satisfactory!!!"<<endl;
+
+
+    return 0;
+}
