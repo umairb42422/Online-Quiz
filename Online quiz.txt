@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int answer, score=0;
-    cout<<"   WELCOME TO ONLINE QUIZ"<<endl;
+    cout<<"   ----WELCOME TO ONLINE QUIZ----"<<endl;
     cout << "A) What is the capital of Japan?" << endl;
     cout << "1. Berlin" <<endl<< "2. Paris"<<endl<<"3. Tokyo"<<endl<<"4. Shingai" << endl;
     cout <<"Select one option (1-4)= ";
@@ -268,4 +268,5 @@ cout<<"REMARKS:Your performance is not Satisfactory!!!"<<endl;
 
 
     return 0;
+
 }
